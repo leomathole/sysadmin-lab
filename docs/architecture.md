@@ -34,7 +34,7 @@ This lab simulates an enterprise IT infrastructure using virtualization and mult
 
 ## Architecture Diagram
 
-![](D:/sysadmin-lab/screenshots/proxmox/proxmox-node-overview.png)
+![](![](../sysadmin-lab/screenshots/proxmox/proxmox-node-overview.png))
 
 ## Communication Flow
 

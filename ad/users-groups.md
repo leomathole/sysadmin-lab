@@ -24,7 +24,7 @@ The following OUs were created to reflect a structured enterprise environment:
 
 ### Evidence
 
-![](file:///D:/sysadmin-lab/screenshots/ad/ad-users.png)
+![](![](../sysadmin-lab/screenshots/ad/ad-users.png))
 
 ---
 
@@ -56,7 +56,7 @@ The following OUs were created to reflect a structured enterprise environment:
 
 ### Evidence
 
-![](file:///D:/sysadmin-lab/screenshots/ad/group-membership.png)
+![](![].(./sysadmin-lab/screenshots/ad/group-membership.png))
 
 ---
 
@@ -79,7 +79,7 @@ Configured via Group Policy:
 
 ### Evidence
 
-![](file:///D:/sysadmin-lab/screenshots/ad/password-policy.png)
+![](![](../sysadmin-lab/screenshots/ad/password-policy.png))
 
 ---
 

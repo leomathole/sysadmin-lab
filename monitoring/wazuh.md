@@ -36,11 +36,11 @@ sudo /var/ossec/bin/agent_control -l
 
 ### Dashboard
 
-![](file:///D:/sysadmin-lab/screenshots/monitoring/wazuh-dashboard.png)
+![](![](../sysadmin-lab/screenshots/monitoring/wazuh-dashboard.png))
 
 ### Alerts
 
-![](file:///D:/sysadmin-lab/screenshots/monitoring/wazuh-alerts.png)
+![](![](../sysadmin-lab/screenshots/monitoring/wazuh-alerts.png))
 
 ## Use Cases
 
