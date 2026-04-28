@@ -35,26 +35,26 @@ Using Proxmox built-in backup functionality.
 
 ### Backup Job
 
-![](![](../sysadmin-lab/screenshots/backups/backup-job.png))
+![](![backup%20job](../screenshots/backups/backup-job.png))
 
 ### Backup Success
 
-![](![](../sysadmin-lab/screenshots/backups/backup-success.png))
+![](![backup%20success](../screenshots/backups/backup-success.png))
 
 ### Restore Process
 
-![](![](../sysadmin-lab/screenshots/backups/backing-restore.png))
+![](![backup%20restore](../screenshots/backups/backing-restore.png))
 =======
 
-![](![](../sysadmin-lab/screenshots/backups/backup-job.png))
+![](![backup%20job](../screenshots/backups/backup-job.png))
 
 ### Backup Success
 
-![](![](../sysadmin-lab/screenshots/backups/backup-success.png))
+![](![backup%20success](../screenshots/backups/backup-success.png))
 
 ### Restore Process
 
-![](![](../sysadmin-lab/screenshots/backups/backing-restore.png))
+![](![restore%20process](../screenshots/backups/backing-restore.png))
 
 ## Result
 

@@ -38,11 +38,11 @@ ping dc01
 
 ### DNS Zone
 
-![](![](../sysadmin-lab/screenshots/dns/dns-zone.png))
+![](![dns%20zone](../screenshots/dns/dns-zone.png))
 
 ### Name Resolution
 
-![](![](../sysadmin-lab/screenshots/dns/nslookup-test.png))
+![](![name%20resolution](../screenshots/dns/nslookup-test.png))
 
 ## Result
 
