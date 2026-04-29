@@ -1,71 +1,87 @@
+---
+layout: default
+title: Troubleshooting Log
+---
+
 # Troubleshooting Log
 
-## 1. Proxmox Storage Full
+## Objective
 
-### Issue
-
-- local-lvm reached 100%
-
-### Cause
-
-- Docker images consumed disk space
-
-### Fix
-
-- Cleaned Docker images
-- Expanded LVM storage
+Document real issues encountered and solutions applied.
 
 ---
 
-## 2. Wazuh Agent Not Connecting
+## Issue 1: Wazuh Agent Not Connecting
 
-### Issue
+### Problem
 
-- Agent not listed
-
-### Cause
-
-- Agent not registered
-
-### Fix
-
-- Used `manage_agents`
-- Imported authentication key
-
----
-
-## 3. Windows Login Loop
-
-### Issue
-
-- User forced to change password repeatedly
+Agent not appearing in manager.
 
 ### Cause
 
-- Domain communication issue
+Incorrect configuration and firewall restrictions.
 
-### Fix
+### Solution
 
-- Verified DNS and domain connectivity
+- Verified manager IP
+- Opened required ports
+- Restarted wazuh-agent service
 
 ---
 
-## 4. Docker Failures
+## Issue 2: Windows Domain Login Loop
 
-### Issue
+### Problem
 
-- Images failing to pull
+User forced to change password repeatedly.
 
 ### Cause
 
-- Network instability and disk issues
+Password policy mismatch.
 
-### Fix
+### Solution
 
-- Switched to native installation
+- Reset password from DC01
+- Disabled “must change at next login”
 
 ---
 
-## Conclusion
+## Issue 3: Docker Image Pull Failures
 
-Multiple real-world issues were identified and resolved, demonstrating strong troubleshooting skills.
+### Problem
+
+Images failing to download.
+
+### Cause
+
+Disk space exhaustion.
+
+### Solution
+
+- Cleaned Docker system
+- Freed up disk space
+
+---
+
+## Issue 4: Proxmox Storage Full
+
+### Problem
+
+VMs failing due to no disk space.
+
+### Cause
+
+Local-LVM reached 100%.
+
+### Solution
+
+- Removed unused images
+- Cleaned storage
+
+---
+
+## Result
+
+- All issues resolved successfully
+- System stability restored
+- Improved troubleshooting skills

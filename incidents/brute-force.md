@@ -1,43 +1,22 @@
-# Incident: Brute Force Attack Detection
+---
+layout: default
+title: Brute Force Simulation
+---
 
-## Objective
+# Brute Force Attack Simulation
 
-Simulate and detect unauthorized login attempts.
+## Scenario
 
-## Attack Method
+Simulated login attack from Kali.
 
-Performed multiple failed login attempts on Windows 11.
+## Detection
 
-## Tools Used
-
-- Windows Multiple login
-- Windows Event Viewer
-- Wazuh SIEM
+Wazuh detected multiple failed logins.
 
 ## Evidence
 
-### Attack Source
+![Attack](../screenshots/incidents/brute-force.png)
 
-![](../screenshots/incidents/attack-kali.png)
+## Result
 
-### Windows Logs
-
-![](../screenshots/incidents/failed-login.png)
-
-### Wazuh Detection
-
-![](../screenshots/incidents/wazuh-detection.png)
-
-## Analysis
-
-- Multiple failed login attempts detected
-- Correlated timestamps between systems
-- Alert triggered in Wazuh
-
-## Conclusion
-
-Demonstrates ability to:
-
-- Detect suspicious activity
-- Analyze logs
-- Respond to incidents
+Attack detected and logged successfully.

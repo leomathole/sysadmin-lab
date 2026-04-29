@@ -1,34 +1,30 @@
+---
+layout: default
+title: Proxmox Backup & Recovery
+---
+
 # Backup and Recovery Strategy
 
 ## Objective
 
-To ensure system availability and enable full data recovery in case of system failure, corruption, or security incidents.
-
----
+Ensure system availability and data recovery in case of failure.
 
 ## Method
 
-Backups are implemented using the built-in backup functionality in Proxmox VE.
-
----
+Using Proxmox built-in backup functionality.
 
 ## Configuration Steps
 
-1. Navigate to **Datacenter → Backup**
-2. Click **Add** to create a new backup job
-3. Select the virtual machines:
-   - DC01 (Domain Controller)
-   - WIN11 (Client Machine)
-4. Configure backup schedule:
-   - Daily or every 30 minutes (lab testing scenario)
-5. Select storage location (local or external storage)
-6. Choose backup mode (Snapshot)
-
----
+1. Navigate to Datacenter → Backup
+2. Create a backup job
+3. Select VMs:
+   - DC01
+   - WIN11
+4. Set schedule (Daily)
 
 ## Backup Mode
 
-- **Snapshot mode** is used to ensure consistency without shutting down virtual machines.
+- Snapshot mode used for consistency
 
 ---
 
@@ -36,11 +32,11 @@ Backups are implemented using the built-in backup functionality in Proxmox VE.
 
 ### Scenario
 
-- A test user was deleted from Active Directory to simulate data loss.
+- Deleted a test user from Active Directory
 
 ### Action
 
-- The affected VM (DC01) was restored from a previous backup.
+- Restored VM from backup
 
 ---
 
@@ -56,15 +52,14 @@ Backups are implemented using the built-in backup functionality in Proxmox VE.
 
 ### Restore Process
 
-![Restore Process](../screenshots/backups/backing-restore.png)
+![Restore](../screenshots/backups/backing-restore.png)
 
 ---
 
 ## Result
 
-- System successfully restored
-- Deleted Active Directory objects recovered
-- Data integrity maintained
+- System successfully restored  
+- Data integrity maintained  
 
 ---
 
@@ -72,14 +67,11 @@ Backups are implemented using the built-in backup functionality in Proxmox VE.
 
 Backups ensure:
 
-- Business continuity
-- Disaster recovery readiness
-- Protection against data loss
-- Rapid system restoration
+- Business continuity  
+- Disaster recovery readiness  
 
 ---
 
 ## Conclusion
 
-The backup and recovery process has been successfully configured and tested.  
-The system can be reliably restored in the event of failure, meeting enterprise system administration requirements.
+Backup and restore procedures are functional and reliable.

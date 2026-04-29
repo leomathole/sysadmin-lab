@@ -1,56 +1,55 @@
-# Lab Architecture
+---
+layout: default
+title: System Architecture
+---
+
+# System Architecture
+
+## Objective
+
+Design a structured enterprise-like lab environment simulating real-world infrastructure.
 
 ## Overview
 
-This lab simulates an enterprise IT infrastructure using virtualization and multiple operating systems.
+The lab environment consists of four main systems:
 
-## Infrastructure
+- **DC01** – Domain Controller (Active Directory + DNS)
+- **WIN11** – Domain-joined client machine
+- **OPS** – Monitoring server (Wazuh SIEM)
+- **KALI** – Attack simulation machine
 
-### Proxmox VE
+## Architecture Design
 
-- Acts as the hypervisor
-- Hosts all virtual machines
+![Architecture](../screenshots/docs/architecture.png)
 
-### Virtual Machines
+## Components
 
-#### DC01 (Windows Server)
+### 1. Domain Controller (DC01)
 
-- Active Directory Domain Controller
+- Active Directory Domain Services
 - DNS Server
+- User authentication
 
-#### WIN11
+### 2. Client Machine (WIN11)
 
-- Domain-joined client
-- Used for user simulation
+- Joined to domain
+- Used for testing authentication and policies
 
-#### OPS (Ubuntu Server)
+### 3. Monitoring Server (OPS)
 
-- Wazuh SIEM
-- Zeek network monitoring
+- Wazuh SIEM deployed
+- Collects logs from endpoints
 
-#### KALI
+### 4. Attacker Machine (KALI)
 
-- Attack simulation and testing
+- Used for brute-force simulation
+- Security testing
 
-## Architecture Diagram
+## Result
 
-![](../screenshots/proxmox/proxmox-node-overview.png)
+A fully functional enterprise-style lab environment enabling:
 
-## Communication Flow
-
-```
-WIN11 → DC01 (Authentication)
-WIN11 → OPS (Logs to Wazuh)
-KALI → WIN11 (Attack simulation)
-OPS → Analysis (Wazuh Dashboard)
-```
-
-## Design Considerations
-
-- Isolated lab environment
-- Realistic enterprise simulation
-- Resource-efficient deployment
-
-## Conclusion
-
-The architecture supports system administration, monitoring, and incident simulation effectively.
+- Identity management
+- Monitoring
+- Security testing
+- Troubleshooting scenarios
