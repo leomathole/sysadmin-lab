@@ -1,24 +1,64 @@
 ---
 layout: default
-title: Active Directory Users & Groups
+title: "Active Directory Users & Groups"
+permalink: /ad/users-groups/
 ---
 
-# Active Directory Users & Groups
+# 🔐 Active Directory Users & Groups
 
 ## Objective
 
-Create and manage users and groups.
+Create and manage domain users and security groups within Active Directory.
 
-## Steps
+---
 
-1. Open Active Directory Users & Computers
-2. Create new users
-3. Assign to groups
+## Steps Performed
+
+1. Opened **Active Directory Users and Computers (ADUC)**
+
+2. Created Organizational Units (OUs):
+   
+   - IT
+   - Finance
+   - HR
+
+3. Created Users:
+   
+   - test.user
+   - admin.user
+
+4. Created Security Groups:
+   
+   - IT_Admins
+   - Finance_Users
+
+5. Assigned users to groups
+
+---
 
 ## Evidence
 
-![Users](../screenshots/ad/ad-users.png)
+### 👥 Users Created
+
+![Users](screenshots/ad/ad-users.png)
+
+### 🧩 Groups Created
+
+![Groups](screenshots/ad/ad-groups.png)
+
+---
 
 ## Result
 
-Users successfully created and managed.
+- Users successfully created and managed
+- Group-based access control implemented
+
+---
+
+## Real-World Relevance
+
+- Identity & Access Management (IAM)
+- Enterprise user provisioning
+- Role-Based Access Control (RBAC)
+
+---

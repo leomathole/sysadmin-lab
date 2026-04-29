@@ -1,77 +1,62 @@
 ---
 layout: default
-title: Proxmox Backup & Recovery
+title: "Backup & Recovery Strategy"
+permalink: /backups/proxmox/
 ---
 
-# Backup and Recovery Strategy
+# 💾 Backup & Recovery Strategy
 
 ## Objective
 
-Ensure system availability and data recovery in case of failure.
-
-## Method
-
-Using Proxmox built-in backup functionality.
-
-## Configuration Steps
-
-1. Navigate to Datacenter → Backup
-2. Create a backup job
-3. Select VMs:
-   - DC01
-   - WIN11
-4. Set schedule (Daily)
-
-## Backup Mode
-
-- Snapshot mode used for consistency
+Ensure system availability and disaster recovery capability.
 
 ---
 
-## Testing Recovery
+## Configuration
 
-### Scenario
+- Platform: Proxmox VE
+- Mode: Snapshot
+- Schedule: Daily
 
-- Deleted a test user from Active Directory
+---
 
-### Action
+## Steps
 
-- Restored VM from backup
+1. Navigate to Datacenter → Backup
+2. Create backup job
+3. Select VMs:
+   - DC01
+   - WIN11
+4. Set schedule
 
 ---
 
 ## Evidence
 
-### Backup Job
+### 📦 Backup Job
 
-![Backup Job](../screenshots/backups/backup-job.png)
+![Backup Job](screenshots/backups/backup-job.png)
 
-### Backup Success
+### ✅ Backup Success
 
-![Backup Success](../screenshots/backups/backup-success.png)
+![Backup Success](screenshots/backups/backup-success.png)
 
-### Restore Process
+### 🔄 Restore Process
 
-![Restore](../screenshots/backups/backing-restore.png)
+![Restore](screenshots/backups/backing-restore.png)
 
 ---
 
 ## Result
 
-- System successfully restored  
-- Data integrity maintained  
+- Successful restore completed
+- No data loss observed
 
 ---
 
 ## Importance
 
-Backups ensure:
-
-- Business continuity  
-- Disaster recovery readiness  
+- Disaster recovery readiness
+- Business continuity assurance
 
 ---
-
-## Conclusion
-
-Backup and restore procedures are functional and reliable.
