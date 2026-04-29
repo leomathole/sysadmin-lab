@@ -1,0 +1,13 @@
+title: "Systems Administration Portfolio"
+description: "Hands-on enterprise lab: AD, DNS, Monitoring, Backup, Incident Response"
+theme: minima
+
+# Navigation (custom)
+header_pages:
+  - index.md
+  - ad/users-groups.md
+  - ad/dns.md
+  - monitoring/wazuh.md
+  - backups/proxmox-backup.md
+  - incidents/brute-force.md
+  - docs/troubleshooting.md
