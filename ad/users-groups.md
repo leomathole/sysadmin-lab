@@ -24,7 +24,7 @@ The following OUs were created to reflect a structured enterprise environment:
 
 ### Evidence
 
-![](![Evidence](../screenshots/ad/ad-users.png))
+![](../screenshots/ad/ad-users.png)
 
 ---
 
@@ -56,7 +56,7 @@ The following OUs were created to reflect a structured enterprise environment:
 
 ### Evidence
 
-![](![Evidence](../screenshots/ad/group-membership.png))
+![](../screenshots/ad/group-membership.png)
 
 ---
 
@@ -79,7 +79,7 @@ Configured via Group Policy:
 
 ### Evidence
 
-![](![Evidence](../screenshots/ad/password-policy.png))
+![](../screenshots/ad/password-policy.png)
 
 ---
 

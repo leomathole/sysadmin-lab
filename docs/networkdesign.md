@@ -41,7 +41,7 @@ nslookup dc01.leolab.localS
 
 ### Network Overview
 
-![](![Network%20Overview](../screenshots/proxmox/vm-list.png))
+![](../screenshots/proxmox/vm-list.png)
 
 ## Conclusion
 

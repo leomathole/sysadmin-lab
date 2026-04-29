@@ -18,15 +18,15 @@ Performed multiple failed login attempts on Windows 11.
 
 ### Attack Source
 
-![](![Attack%20Source](../screenshots/incidents/attack-kali.png))
+![](../screenshots/incidents/attack-kali.png)
 
 ### Windows Logs
 
-![](![Windows%20Logs](../screenshots/incidents/failed-login.png))
+![](../screenshots/incidents/failed-login.png)
 
 ### Wazuh Detection
 
-![](![Wazuh%20Detection](../screenshots/incidents/wazuh-detection.png))
+![](../screenshots/incidents/wazuh-detection.png)
 
 ## Analysis
 
