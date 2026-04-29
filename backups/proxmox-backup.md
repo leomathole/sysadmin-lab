@@ -35,26 +35,26 @@ Using Proxmox built-in backup functionality.
 
 ### Backup Job
 
-![](![backup%20job](../screenshots/backups/backup-job.png))
+![](![Backup%20Job](../screenshots/backups/backup-job.png))
 
 ### Backup Success
 
-![](![backup%20success](../screenshots/backups/backup-success.png))
+![](![Backup%20success](../screenshots/backups/backup-success.png))
 
 ### Restore Process
 
-![](![backup%20restore](../screenshots/backups/backing-restore.png))
+![](![Restore%20Process](../screenshots/backups/backing-restore.png))
 =======
 
-![](![backup%20job](../screenshots/backups/backup-job.png))
+![](![Restore%20Process](../screenshots/backups/backup-job.png))
 
 ### Backup Success
 
-![](![backup%20success](../screenshots/backups/backup-success.png))
+![](![Restore%20Process](../screenshots/backups/backup-success.png))
 
 ### Restore Process
 
-![](![restore%20process](../screenshots/backups/backing-restore.png))
+![](![Restore%20Process](../screenshots/backups/backing-restore.png))
 
 ## Result
 
