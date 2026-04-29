@@ -50,7 +50,7 @@ Using Proxmox built-in backup functionality.
 
 ### Backup Success
 
-![](![Restore%20Process](../screenshots/backups/backup-success.png))
+![](![Test](../screenshots/backups/backup-success.png))
 
 ### Restore Process
 
