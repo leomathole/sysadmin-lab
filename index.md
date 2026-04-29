@@ -1,123 +1,104 @@
-# 🖥️ Systems Administration Portfolio
+---
+layout: home
+title: Home
+---
 
-## 👤 Leo Mathole
+# 👋 Hi, I'm Leo Mathole
 
-**Aspiring Systems Administrator | Virtualization | Monitoring | Active Directory**
+**Systems Administrator | Virtualization | Monitoring | Active Directory**
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Enterprise Lab Portfolio
 
-This portfolio demonstrates hands-on implementation of enterprise systems administration tasks, including identity management, system monitoring, backup strategies, and incident analysis.
+This project simulates a real-world enterprise IT environment, demonstrating:
 
-The environment was built using virtualization and simulates a real-world enterprise infrastructure.
-
----
-
-## 🧰 Technologies Used
-
-- Proxmox VE (Virtualization)
-- Windows Server (Active Directory, DNS)
-- Windows 11 (Client)
-- Ubuntu Server (Monitoring)
-- Wazuh SIEM (Security Monitoring)
-- Linux CLI Tools
+- Identity & Access Management (Active Directory)
+- DNS Infrastructure
+- System Monitoring (Wazuh SIEM)
+- Backup & Disaster Recovery
+- Incident Detection & Analysis
 
 ---
 
-## 🏗️ Lab Architecture
+## 🧰 Technology Stack
 
-![Proxmox Overview](screenshots/proxmox/proxmox-node-overview.png)
-
-- **DC01** → Domain Controller + DNS  
-- **WIN11** → Domain-joined client  
-- **OPS** → Monitoring server (Wazuh)  
-- **KALI** → Attack simulation  
-
----
-
-## 🔐 Core Implementations
-
-### 🧑‍💼 Active Directory & User Management
-
-- Created users, groups, and Organizational Units  
-- Enforced authentication policies  
-- Managed role-based access control  
-
-👉 [View Implementation](ad/users-groups.md)
+| Area             | Tools                  |
+| ---------------- | ---------------------- |
+| Virtualization   | Proxmox VE             |
+| Identity         | Active Directory       |
+| Monitoring       | Wazuh                  |
+| OS               | Windows Server, Ubuntu |
+| Security Testing | Kali Linux             |
 
 ---
 
-### 🌐 DNS Configuration
+## 🖥️ Lab Architecture
 
-- Configured internal domain (`lab.local`)  
-- Enabled name resolution across systems  
-
-👉 [View DNS Setup](ad/dns.md)
+![Proxmox](screenshots/proxmox/proxmox-node-overview.png)
 
 ---
 
-### 📊 System Monitoring (Wazuh)
+## 🔑 Core Modules
 
-- Centralized log monitoring  
-- Detected failed login attempts  
-- Analyzed system activity  
+### 🔐 Active Directory
 
-![Wazuh Dashboard](screenshots/monitoring/wazuh-dashboard.png)
+Manage users, groups, and authentication policies.
 
-👉 [View Monitoring Setup](monitoring/wazuh.md)
+👉 [Explore AD Setup](ad/users-groups.md)
+
+---
+
+### 🌐 DNS
+
+Internal domain resolution across systems.
+
+👉 [Explore DNS](ad/dns.md)
+
+---
+
+### 📊 Monitoring
+
+Real-time system and security monitoring.
+
+![Wazuh](screenshots/monitoring/wazuh-dashboard.png)
+
+👉 [Explore Monitoring](monitoring/wazuh.md)
 
 ---
 
 ### 💾 Backup & Recovery
 
-- Configured scheduled backups in Proxmox  
-- Tested restore scenarios  
-- Ensured data integrity  
+Reliable backup and restore strategy.
 
-![Backup Job](screenshots/backups/backup-job.png)
+![Backup](screenshots/backups/backup-job.png)
 
-👉 [View Backup Strategy](backups/proxmox-backup.md)
+👉 [Explore Backup](backups/proxmox-backup.md)
 
 ---
 
 ### ⚠️ Incident Simulation
 
-- Simulated brute-force attack  
-- Captured logs and alerts  
-- Performed analysis  
+Brute-force attack detection and analysis.
 
-![Attack Simulation](screenshots/incidents/attack-kali.png)
+![Attack](screenshots/incidents/attack-kali.png)
 
-👉 [View Incident Analysis](incidents/brute-force.md)
+👉 [Explore Incident](incidents/brute-force.md)
 
 ---
 
-## 🛠️ Troubleshooting Experience
+## 🛠️ Real Issues Solved
 
-During this project, I encountered and resolved real-world issues:
+- Storage exhaustion in Proxmox  
+- Wazuh agent communication failures  
+- Domain authentication issues  
+- Docker deployment challenges  
 
-- Disk storage exhaustion on Proxmox  
-- Wazuh agent connectivity issues  
-- Windows domain authentication errors  
-- Docker deployment failures  
-
-👉 [View Troubleshooting Log](docs/troubleshooting.md)
+👉 [See Troubleshooting](docs/troubleshooting.md)
 
 ---
 
-## 🎯 Key Skills Demonstrated
-
-- Systems Administration  
-- Active Directory Management  
-- DNS Configuration  
-- System Monitoring & Logging  
-- Backup & Disaster Recovery  
-- Troubleshooting & Incident Handling  
-
----
-
-## 📂 Project Repository
+## 📂 Source Code
 
 👉 https://github.com/leomathole/sysadmin-lab
 
@@ -126,10 +107,4 @@ During this project, I encountered and resolved real-world issues:
 ## 📞 Contact
 
 - Email: leomathole@gmail.com
-- Phone: 0888881406 
-
----
-
-## 📌 Note
-
-This project was built as a practical demonstration of enterprise system administration skills aligned with real-world IT environments.
+- Phone: +265 888 881 406
