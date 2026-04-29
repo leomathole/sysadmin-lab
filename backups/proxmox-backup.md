@@ -1,60 +1,62 @@
----
-
----
-
-# 💾 Backup & Recovery Strategy
+# Backup and Recovery Strategy
 
 ## Objective
 
-Ensure system availability and disaster recovery capability.
+To ensure system availability and data recovery in case of failure.
 
----
+## Method
 
-## Configuration
+Using Proxmox built-in backup functionality.
 
-- Platform: Proxmox VE
-- Mode: Snapshot
-- Schedule: Daily
-
----
-
-## Steps
+## Configuration Steps
 
 1. Navigate to Datacenter → Backup
-2. Create backup job
+2. Create a backup job
 3. Select VMs:
    - DC01
    - WIN11
-4. Set schedule
+4. Set schedule (Daily)
 
----
+## Backup Mode
+
+- Snapshot mode used for consistency
+
+## Testing Recovery
+
+### Scenario
+
+- Deleted a test user from Active Directory
+
+### Action
+
+- Restored VM from backup
 
 ## Evidence
 
-### 📦 Backup Job
+### Backup Job
 
-![Backup Job](screenshots/backups/backup-job.png)
+![](../screenshots/backups/backup-job.png)
 
-### ✅ Backup Success
+### Backup Success
 
-![Backup Success](screenshots/backups/backup-success.png)
+![](../screenshots/backups/backup-success.png)
 
-### 🔄 Restore Process
+### Restore Process
 
-![Restore](screenshots/backups/backing-restore.png)
-
----
+![](../screenshots/backups/restore.png)
 
 ## Result
 
-- Successful restore completed
-- No data loss observed
-
----
+- System successfully restored
+- Data integrity maintained
 
 ## Importance
 
-- Disaster recovery readiness
-- Business continuity assurance
+Backups ensure:
 
----
+- Business continuity
+- Disaster recovery readiness
+
+## Conclusion
+
+Backup and restore procedures are functional and reliable.

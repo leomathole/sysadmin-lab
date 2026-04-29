@@ -1,6 +1,6 @@
 
 
-# 🔐 Active Directory Users & Groups
+# Active Directory Users & Groups
 
 ## Objective
 
@@ -20,13 +20,14 @@ Create and manage domain users and security groups within Active Directory.
 
 3. Created Users:
    
-   - test.user
-   - admin.user
+   - Luthando Seunda
+   - john Banda
 
 4. Created Security Groups:
    
    - IT_Admins
    - Finance_Users
+   - HR_users
 
 5. Assigned users to groups
 
@@ -36,11 +37,23 @@ Create and manage domain users and security groups within Active Directory.
 
 ### 👥 Users Created
 
-![Users](screenshots/ad/ad-users.png)
+![Users](../screenshots/ad/ad-users.png)
 
 ### 🧩 Groups Created
 
-![Groups](screenshots/ad/ad-groups.png)
+![Groups](../screenshots/ad/ad-groups.png)
+
+
+
+## Assigned users to groups
+
+![](../screenshots/ad/group-members.png)
+
+
+
+## Password Policy
+
+![](../screenshots/ad/password-policy.png)
 
 ---
 

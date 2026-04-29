@@ -7,21 +7,21 @@ The lab environment is designed as a virtual enterprise network using Proxmox.
 ## Network Type
 
 - Virtual Bridge: vmbr0
-- Internal Network Range: 192.168.10.0/24
+- Internal Network Range: 192.168.100.0/24
 
 ## IP Addressing Scheme
 
-| Machine | Role                    | IP Address    |
-| ------- | ----------------------- | ------------- |
-| DC01    | Domain Controller / DNS | 192.168.10.10 |
-| WIN11   | Client Workstation      | 192.168.10.20 |
-| OPS     | Monitoring Server       | 192.168.10.30 |
-| KALI    | Attack Machine          | 192.168.10.40 |
+| Machine | Role                    | IP Address     |
+| ------- | ----------------------- | -------------- |
+| DC01    | Domain Controller / DNS | 192.168.100.10 |
+| WIN11   | Client Workstation      | 192.168.100.20 |
+| OPS     | Monitoring Server       | 192.168.100.30 |
+| KALI    | Attack Machine          | 192.168.100.40 |
 
 ## DNS Configuration
 
-- Primary DNS Server: 192.168.10.10 (DC01)
-- Domain: leolab.localS
+- Primary DNS Server: 192.168.100.10 (DC01)
+- Domain: lab.local
 
 ## Connectivity Tests
 
@@ -34,7 +34,7 @@ ping dc01
 ### DNS Resolution
 
 ```
-nslookup dc01.leolab.localS
+nslookup dc01.lab.local
 ```
 
 ## Screenshot Evidence

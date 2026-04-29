@@ -1,22 +1,54 @@
----
-
----
-
 # DNS Configuration
 
 ## Objective
 
-Ensure name resolution in the domain.
+To enable name resolution within the domain environment.
 
-## Steps
+## Server Details
 
-- Configure DC01 as DNS server
-- Verify using ping
+- Server: DC01
+- IP Address: 192.168.100.10
+- Role: DNS Server
+
+## Configuration Steps
+
+1. Installed DNS Server role
+2. Created Forward Lookup Zone:
+   - Name: lab.local
+3. Verified DNS records
+
+## Client Configuration
+
+WIN11 DNS configured to:
+
+```
+192.168.100.10
+```
+
+## Testing
+
+### Command
+
+```
+nslookup dc01.lab.local
+ping dc01
+```
 
 ## Evidence
 
-![DNS](../screenshots/ad/dns.png)
+### DNS Zone
+
+![](../screenshots/dns/dns-zone.png)
+
+### Name Resolution
+
+![](../screenshots/dns/nslookup-test.png)
 
 ## Result
 
-DNS functioning correctly.
+- Successful name resolution
+- Stable communication between systems
+
+## Conclusion
+
+DNS is correctly configured and supports Active Directory operations.
