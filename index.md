@@ -1,35 +1,37 @@
----
-layout: home
-title: Home
----
+# 👨‍💻 Leo Mathole
 
-# 👋 Hi, I'm Leo Mathole
-
-**Systems Administrator | Virtualization | Monitoring | Active Directory**
+**Systems Administrator | Active Directory | Monitoring | Virtualization**
 
 ---
 
-## 🚀 Enterprise Lab Portfolio
+## 🧠 What I Do
 
-This project simulates a real-world enterprise IT environment, demonstrating:
+I design, deploy, and troubleshoot enterprise IT systems with a focus on:
 
 - Identity & Access Management (Active Directory)
-- DNS Infrastructure
-- System Monitoring (Wazuh SIEM)
+- Infrastructure Monitoring (Wazuh SIEM)
 - Backup & Disaster Recovery
-- Incident Detection & Analysis
+- System Performance & Reliability
 
 ---
 
-## 🧰 Technology Stack
+## ⚡ Proven Capabilities
 
-| Area             | Tools                  |
-| ---------------- | ---------------------- |
-| Virtualization   | Proxmox VE             |
-| Identity         | Active Directory       |
-| Monitoring       | Wazuh                  |
-| OS               | Windows Server, Ubuntu |
-| Security Testing | Kali Linux             |
+✔ Built and managed a domain environment (AD + DNS)  
+✔ Deployed centralized monitoring and log analysis  
+✔ Implemented backup and recovery strategy  
+✔ Simulated and analyzed security incidents  
+✔ Troubleshot real system failures under lab conditions  
+
+
+
+## 📸 Live System Evidence
+
+![Proxmox](screenshots/proxmox/proxmox-node-overview.png)
+![Wazuh](screenshots/monitoring/wazuh-dashboard.png)
+![Active Directory](screenshots/ad/ad-users.png)
+
+
 
 ---
 
