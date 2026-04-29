@@ -2,64 +2,71 @@
 
 ## Objective
 
-To ensure system availability and data recovery in case of failure.
+To ensure system availability and enable full data recovery in case of system failure, corruption, or security incidents.
+
+---
 
 ## Method
 
-Using Proxmox built-in backup functionality.
+Backups are implemented using the built-in backup functionality in Proxmox VE.
+
+---
 
 ## Configuration Steps
 
-1. Navigate to Datacenter → Backup
-2. Create a backup job
-3. Select VMs:
-   - DC01
-   - WIN11
-4. Set schedule (Daily/30 minutes)
+1. Navigate to **Datacenter → Backup**
+2. Click **Add** to create a new backup job
+3. Select the virtual machines:
+   - DC01 (Domain Controller)
+   - WIN11 (Client Machine)
+4. Configure backup schedule:
+   - Daily or every 30 minutes (lab testing scenario)
+5. Select storage location (local or external storage)
+6. Choose backup mode (Snapshot)
+
+---
 
 ## Backup Mode
 
-- Snapshot mode used for consistency
+- **Snapshot mode** is used to ensure consistency without shutting down virtual machines.
+
+---
 
 ## Testing Recovery
 
 ### Scenario
 
-- Deleted a test user from Active Directory
+- A test user was deleted from Active Directory to simulate data loss.
 
 ### Action
 
-- Restored VM from backup
+- The affected VM (DC01) was restored from a previous backup.
+
+---
 
 ## Evidence
 
 ### Backup Job
 
-![](![Backup%20Job](../screenshots/backups/backup-job.png))
+![Backup Job](../screenshots/backups/backup-job.png)
 
 ### Backup Success
 
-![](![Backup%20success](../screenshots/backups/backup-success.png))
+![Backup Success](../screenshots/backups/backup-success.png)
 
 ### Restore Process
 
-![](![Restore%20Process](../screenshots/backups/backing-restore.png))
-=======
+![Restore Process](../screenshots/backups/backing-restore.png)
 
-![](![Restore%20Process](../screenshots/backups/backup-job.png))
-
-### Backup Success
-
-![](![Test](../screenshots/backups/backup-success.png))
-
-### Restore Process
-
-![](![Restore%20Process](../screenshots/backups/backing-restore.png))
+---
 
 ## Result
 
 - System successfully restored
+- Deleted Active Directory objects recovered
 - Data integrity maintained
+
+---
 
 ## Importance
 
@@ -67,7 +74,12 @@ Backups ensure:
 
 - Business continuity
 - Disaster recovery readiness
+- Protection against data loss
+- Rapid system restoration
+
+---
 
 ## Conclusion
 
-Backup and restore procedures are functional and reliable.
+The backup and recovery process has been successfully configured and tested.  
+The system can be reliably restored in the event of failure, meeting enterprise system administration requirements.
