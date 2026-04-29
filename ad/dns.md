@@ -1,6 +1,5 @@
 ---
-layout: default
-title: DNS Configuration
+
 ---
 
 # DNS Configuration

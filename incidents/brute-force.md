@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Brute Force Simulation
+
 ---
 
 # Brute Force Attack Simulation

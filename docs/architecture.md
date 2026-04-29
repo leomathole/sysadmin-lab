@@ -1,7 +1,4 @@
----
-layout: default
-title: System Architecture
----
+
 
 # System Architecture
 

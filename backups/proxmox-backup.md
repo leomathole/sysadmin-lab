@@ -1,7 +1,5 @@
 ---
-layout: default
-title: "Backup & Recovery Strategy"
-permalink: /backups/proxmox/
+
 ---
 
 # 💾 Backup & Recovery Strategy

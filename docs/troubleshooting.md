@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Troubleshooting Log
+
 ---
 
 # Troubleshooting Log
