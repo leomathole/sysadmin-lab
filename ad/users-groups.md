@@ -1,8 +1,4 @@
----
-layout: default
-title: "Active Directory Users & Groups"
-permalink: /ad/users-groups/
----
+
 
 # 🔐 Active Directory Users & Groups
 
