@@ -114,7 +114,7 @@ img:hover {
 
 <div class="fade-in">
 
-# Leo Mathole
+# 👨‍💻 Leo Mathole
 
 ### Systems Administrator | AD | Monitoring | Virtualization
 
@@ -122,7 +122,7 @@ img:hover {
 
 <div class="card fade-in">
 
-## Profile
+## 🧠 Profile
 
 I design, deploy, and troubleshoot enterprise IT systems focused on:
 
@@ -135,7 +135,7 @@ I design, deploy, and troubleshoot enterprise IT systems focused on:
 
 <div class="card fade-in">
 
-## Proven Capabilities
+## ⚡ Proven Capabilities
 
 - Built enterprise-style AD domain (DC01 + WIN11)  
 - Deployed centralized SIEM monitoring  
@@ -147,7 +147,7 @@ I design, deploy, and troubleshoot enterprise IT systems focused on:
 
 <div class="card fade-in">
 
-## Live System Evidence
+## 📸 Live System Evidence
 
 ### Proxmox
 
@@ -165,7 +165,7 @@ I design, deploy, and troubleshoot enterprise IT systems focused on:
 
 <div class="card fade-in">
 
-## Core Modules
+## 🔧 Core Modules
 
 <a class="button" href="ad/users-groups.md">Active Directory</a>  
 <a class="button" href="ad/dns.md">DNS</a>  
@@ -188,7 +188,7 @@ I design, deploy, and troubleshoot enterprise IT systems focused on:
 
 <div class="card fade-in">
 
-## Tech Stack
+## 🧰 Tech Stack
 
 <span class="badge">Proxmox</span>
 <span class="badge">Active Directory</span>
