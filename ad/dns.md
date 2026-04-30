@@ -44,6 +44,10 @@ ping dc01
 
 ![](../screenshots/dns/nslookup-test.png)
 
+## ping
+
+![](../screenshots/dns/ping.png)
+
 ## Result
 
 - Successful name resolution

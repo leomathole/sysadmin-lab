@@ -22,7 +22,7 @@ Performed multiple failed login attempts on Windows 11.
 
 ### Windows Logs
 
-![](../screenshots/incidents/failed-logins.png)
+![](../screenshots/incidents/windows.png)
 
 ### Wazuh Detection
 
